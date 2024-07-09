@@ -34,19 +34,26 @@ const testimonialData: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
       <div className="container">
-        <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
-          center
-        />
+        <div style={{ fontSize: 30, fontWeight: 800 }}>
+          HAVE QUESTIONS? LET US KNOW!
+        </div>
+        <div>
+          Vision, innovation, quality workmanship and exceptional customer
+          service are what drives clients to choose InnoKitr as their kitchen
+          designer for luxury kitchen renovations in Sydney. We have been
+          leading the industry since 2000 to provide high quality, unique new
+          design kitchens. All of our new kitchen designs are customised by our
+          telant designers to suit the lifestyle of our clients, resulting in an
+          exciting experience.
+        </div>
 
-        <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
+        {/* <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (
             <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
           ))}
-        </div>
+        </div> */}
       </div>
       <div className="absolute right-0 top-5 z-[-1]">
         <svg

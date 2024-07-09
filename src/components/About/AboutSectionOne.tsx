@@ -23,13 +23,32 @@ const AboutSectionOne = () => {
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
-              <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
-                mb="44px"
-              />
+              <div className="mb-9">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                  Personal and Professional
+                </h3>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  Whatever the design you have in mind, your kitchen joinery
+                  experience should feel seamless. we’ll listen to your ideas.
+                  From there, you can enjoy a smooth process that brings you
+                  closer to the bespoke kitchen you want.
+                </p>
+              </div>
 
-              <div
+              <div className="mb-9">
+                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                  Best Team
+                </h3>
+                <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
+                  Our kitchen designs, assembly and installation are carried out
+                  by a highly experienced skilled and dedicated team of experts.
+                  Their passion is reflected in the finished product. The end
+                  result is that you’ll benefit from an installation that’s
+                  attractive to look at and practical to use.
+                </p>
+              </div>
+
+              {/* <div
                 className="mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
@@ -46,22 +65,16 @@ const AboutSectionOne = () => {
                     <List text="Developer friendly" />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/kitchen/11.jpg"
                   alt="about-image"
                   fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                  className="mx-auto max-w-full drop-shadow-three  lg:mr-0"
                 />
               </div>
             </div>
