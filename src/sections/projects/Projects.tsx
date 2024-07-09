@@ -10,11 +10,11 @@ export function Projects() {
     "Kirribilli Residential Project": [
       {
         ...DEFAULT_SLICE,
-        coverUrl: "/Projects/Kirribilli Residential Project/01.jpg",
+        coverUrl: "/Projects/Kirribilli Residential Project/1.jpg",
       },
       {
         ...DEFAULT_SLICE,
-        coverUrl: "/Projects/Kirribilli Residential Project/02.jpg",
+        coverUrl: "/Projects/Kirribilli Residential Project/2.jpg",
       },
     ],
     "Mary St Auburn Project (160 units)": [
