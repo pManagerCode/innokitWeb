@@ -1,8 +1,9 @@
 {
-  "editor.formatOnSave": false,
-  "vetur.validation.template": false,
+  "css.validate": false,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "files.eol": "\n"
+    "source.organizeImports": "explicit"
+  }
 }
