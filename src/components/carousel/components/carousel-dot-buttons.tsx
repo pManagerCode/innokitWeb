@@ -32,7 +32,7 @@ export function CarouselDotButtons({
   };
 
   const SIZES = {
-    circular: slotProps?.dot?.size ?? 18,
+    circular: slotProps?.dot?.size ?? 50,
     number: slotProps?.dot?.size ?? 28,
   };
 
@@ -54,12 +54,12 @@ export function CarouselDotButtons({
       width: SIZES.circular,
       height: SIZES.circular,
       '&::before': {
-        width: 8,
-        height: 8,
+        width: 28,
+        height: 28,
         content: '""',
         opacity: 0.24,
         borderRadius: '50%',
-        bgcolor: 'currentColor',
+        bgcolor: 'green',
         transition: theme.transitions.create(['opacity'], {
           easing: theme.transitions.easing.sharp,
           duration: theme.transitions.duration.short,
