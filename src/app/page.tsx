@@ -12,8 +12,8 @@ import Video from "@/components/Video";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Innovative Kitchen in Sydney",
-  description: "This is Home for Innovative Kitchen in Sydney",
+  title: "Innovative Kitchen Sydney",
+  description: "This is Home for Innovative Kitchen Sydney",
   // other metadata
 };
 
@@ -30,7 +30,7 @@ export default function Home() {
        <Testimonials />
       {/*<Pricing /> */}
       {/* <Blog /> */}
-      <Contact />
+      {/* <Contact /> */}
     </>
   );
 }
