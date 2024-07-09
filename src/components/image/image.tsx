@@ -108,3 +108,5 @@ export const Image = forwardRef<HTMLSpanElement, ImageProps>(
     );
   }
 );
+
+Image.displayName = 'Image';

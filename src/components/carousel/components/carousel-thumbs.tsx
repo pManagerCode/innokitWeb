@@ -1,18 +1,18 @@
 import type { BoxProps } from '@mui/material/Box';
-import type { CSSObject } from '@mui/material/styles';
 import type { ButtonBaseProps } from '@mui/material/ButtonBase';
+import type { CSSObject } from '@mui/material/styles';
 
 import { Children, forwardRef, isValidElement } from 'react';
 
 import Box from '@mui/material/Box';
-import { useTheme } from '@mui/material/styles';
 import ButtonBase from '@mui/material/ButtonBase';
+import { useTheme } from '@mui/material/styles';
 
 import { varAlpha } from 'src/theme/styles';
 
+import { StyledContainer, StyledRoot } from '../carousel';
 import { carouselClasses } from '../classes';
 import { CarouselSlide } from './carousel-slide';
-import { StyledRoot, StyledContainer } from '../carousel';
 
 import type { CarouselOptions, CarouselThumbProps, CarouselThumbsProps } from '../types';
 
@@ -99,7 +99,7 @@ export function CarouselThumb({
           }),
         ...(selected && {
           opacity: 1,
-          boxShadow: (theme) => `0 0 0 2px ${theme.vars.palette.primary.main}`,
+          boxShadow: (theme) => `0 0 0 2px ${(theme as any).vars.palette.primary.main}`,
         }),
         ...sx,
       }}
@@ -124,7 +124,7 @@ export function CarouselThumb({
 // ----------------------------------------------------------------------
 
 function useMaskStyle(axis: CarouselOptions['axis']): CSSObject {
-  const theme = useTheme();
+  const theme:any = useTheme();
 
   const baseStyles = {
     zIndex: 9,
@@ -170,3 +170,4 @@ function useMaskStyle(axis: CarouselOptions['axis']): CSSObject {
     },
   };
 }
+CarouselThumbs.displayName = 'CarouselThumbs';

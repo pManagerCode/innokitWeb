@@ -23,7 +23,7 @@ export function CarouselDotButtons({
   fallback = false,
   ...other
 }: CarouselDotButtonsProps) {
-  const theme = useTheme();
+  const theme:any = useTheme();
 
   const GAPS = {
     number: gap ?? 6,

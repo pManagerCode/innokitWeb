@@ -80,7 +80,7 @@ function getSize(slidesToShow: InputValue): InputValue {
   return getValue(slidesToShow);
 }
 
-function getValue(value: string | number = 1): string {
+function getValue(value: any = 1): string {
   if (typeof value === 'string') {
     const isSupported = value === 'auto' || value.endsWith('%') || value.endsWith('px');
     if (!isSupported) {

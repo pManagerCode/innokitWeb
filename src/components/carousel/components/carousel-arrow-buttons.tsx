@@ -81,7 +81,7 @@ export function CarouselArrowNumberButtons({
   sx,
   ...other
 }: StackProps & CarouselArrowButtonsProps) {
-  const theme = useTheme();
+  const theme:any = useTheme();
 
   return (
     <Stack

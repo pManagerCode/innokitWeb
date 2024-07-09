@@ -194,7 +194,7 @@ export function maxLine({ line, persistent }: MaxLineProps): CSSObject {
  * ...paper({ theme, color: varAlpha(theme.vars.palette.background.paperChannel, 0.9), dropdown: true }),
  */
 type PaperProps = {
-  theme: Theme;
+  theme: any;
   color?: string;
   dropdown?: boolean;
 };
@@ -222,7 +222,7 @@ export function paper({ theme, color, dropdown }: PaperProps) {
  * Usage:
  * ...menuItem(theme)
  */
-export function menuItem(theme: Theme) {
+export function menuItem(theme: any) {
   return {
     ...theme.typography.body2,
     padding: theme.spacing(0.75, 1),

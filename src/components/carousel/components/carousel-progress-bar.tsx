@@ -11,7 +11,7 @@ import type { CarouselProgressBarProps } from '../types';
 
 // ----------------------------------------------------------------------
 
-const StyledRoot = styled(Box)(({ theme }) => ({
+const StyledRoot = styled(Box)(({ theme }:{theme:any}) => ({
   height: 6,
   maxWidth: 120,
   width: '100%',
