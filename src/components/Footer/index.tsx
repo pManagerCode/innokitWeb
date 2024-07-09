@@ -29,8 +29,10 @@ const Footer = () => {
                 </h2>
                 <ul>
                   <li>Phone: 0416 168 810</li>
-                  <li>Email: Info@innokit.com.au</li>
+                  <li>Free Quote: Info@innokit.com.au</li>
                   <li>Address: 95 Market Street, Smithfield, NSW 2164</li>
+                  <li>ABN: 74 632 072 247</li>
+                  <li>Licence No. 352247C</li>
                 </ul>
               </div>
             </div>
