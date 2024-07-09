@@ -30,7 +30,7 @@ export function GallerySlide() {
     { ...DEFAULT_SLICE, coverUrl: "/Gallery/ketchen08.png" },
     { ...DEFAULT_SLICE, coverUrl: "/Gallery/Others01.jpg" },
     { ...DEFAULT_SLICE, coverUrl: "/Gallery/Others02.jpg" },
-    { ...DEFAULT_SLICE, coverUrl: "/Gallery/Others03.jpg" },
+    { ...DEFAULT_SLICE, coverUrl: "/Gallery/Others03.JPG" },
     { ...DEFAULT_SLICE, coverUrl: "/Gallery/Others04.jpg" },
     { ...DEFAULT_SLICE, coverUrl: "/Gallery/Others05.JPG" },
     { ...DEFAULT_SLICE, coverUrl: "/Gallery/Others06.jpg" },
