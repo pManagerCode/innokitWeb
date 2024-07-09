@@ -1,0 +1,68 @@
+
+
+.mytable1 {
+    background-color: $table-colors.grey !important; 
+    
+    .v-data-footer, table,.v-toolbar__content {
+        background-color: $table-colors.grey !important;
+    }
+    .col-12{
+        padding-left: 10px !important;
+    }
+ }
+
+ .mytable2 {
+    background-color: $table-colors.light-green !important;
+    .v-data-footer, table,.v-toolbar__content {
+       background-color: $table-colors.light-green !important;
+   }
+    .col-12{
+        padding-left: 10px !important;
+    }   
+ }
+
+ .mytable3 {
+    background-color: $table-colors.light-blue !important; 
+    .v-data-footer, table,.v-toolbar__content {
+       background-color: $table-colors.light-blue !important;
+   }   
+    .col-12{
+        padding-left: 10px !important;
+    }   
+}
+
+@media  (min-width: 700px) {// when the browser window is 700px wide or lager:
+    .v-data-table  table  td {
+        font-size: 0.75rem !important;
+    }
+}
+
+.v-chip.v-size--default {
+    font-size: 12px !important;
+}
+tr.v-data-table__selected {
+    background: #89a9e2 !important;
+}
+table {
+    border-collapse: collapse;
+  }
+table, td,th {
+    border: 2px solid white;
+}
+
+.limit-height {
+    table tr {
+        overflow: hidden !important;
+        height: 14px !important;
+        white-space: nowrap !important;
+      }
+}  
+
+.dense-column{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    table tr td{
+        padding-left: 0 !important;
+        padding-right: 0 !important;      
+    }
+}

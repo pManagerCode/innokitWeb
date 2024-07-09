@@ -1,0 +1,15 @@
+{
+  "Projects":"项目",
+  "Database":"配置",
+  "Login":"登录",
+  "Logout":"退出",
+  "EditProfile":"个人信息",
+ 
+  "ProjectCalendar":"日历",
+  "Invoice":"发票",
+  "Warehouse":"库存",
+  "Expense":"额度",
+  "SupplierQOR":"订货记录",
+  "SubconQOR":"外包记录"
+  }
+  
