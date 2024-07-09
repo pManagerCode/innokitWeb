@@ -28,15 +28,14 @@ export function CarouselAutoplay({ data }: Props) {
     Autoplay({ playOnInit: false, delay: 2000 }),
   ]);
 
-  useEffect(() => {
-    if (!carousel.autoplay.isPlaying) {
-      debugger;
+  function playSlides(){
+     if (!carousel.autoplay.isPlaying) {
       carousel.autoplay.onTogglePlay();
     }
-  }, []);
+  }
 
   return (
-    <>
+    <div onMouseEnter={playSlides}>
       <PlayButton
         isPlaying={carousel.autoplay.isPlaying}
         onClick={carousel.autoplay.onTogglePlay}
@@ -64,7 +63,7 @@ export function CarouselAutoplay({ data }: Props) {
           }}
         />
       </Box>
-    </>
+    </div>
   );
 }
 
